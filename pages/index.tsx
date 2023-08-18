@@ -8,13 +8,13 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>cooming soon</title>
-        <meta name="description" content="trendz news" />
+        <meta name="description" content="Viral Feeds" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://trendznews.top">Trendz News</a>
+          Welcome to <a href="viralfeeds.top">c</a>
         </h1>
 
    
