@@ -40,8 +40,8 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 				}
 				featuredImage {
 					node {
-						sourceUrl
-						altText
+						imageUrl
+						
 					}
 				}
 			}
@@ -99,7 +99,7 @@ const Post: React.FC<PostProps> = (props) => {
 				
 				<meta
 					property="og:image:alt"
-					content={post.featuredImage.node.altText || post.title}
+					content={post.featuredImage.node}
 				/>
 				
 			</Head>
